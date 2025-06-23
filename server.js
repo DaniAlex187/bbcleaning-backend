@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const app = express();
 app.use(cors({
-  origin: 'https://bbcleaning-frontend.vercel.app'
+  origin: ['https://bbcleaning-frontend.vercel.app', 'https://bnbcleaning.co.uk']
 }));
 app.use(express.json());
 
